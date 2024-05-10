@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="imagem/logo.png" type="image/x-icon">
+    <title>Doce Encanto Kids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="./imagem/logo.png" alt="logo"></a>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link" id="home">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="masc">Masculino</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="menina">Feminína</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="cole">Coleção</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="cont">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button"><a href="#"><img src="./assets/img/shopping_cart.png" width="40px" alt=""></a></button>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menushow()"><img class="icon" src="./assets/img/menu-icon.png" width="50px" alt="menu-icon"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link" id="mobile-home">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="masc">Masculino</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="menina">Feminíno</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="cole">Coleção</a></li>
+                <li class="nav-item"><a href="#" class="nav-link" id="cont">Contato</a></li>
+            </ul>
+            <div class="login-button">
+                <button><a href="#"><img src="./assets/img/shopping_cart.png" width="35px" alt=""></a></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="carrossel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img src="./imagem/carrossel1.jpg" class="d-block" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img src="./imagem/carrossel2.jpg" class="d-block" alt="..."></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img src="./imagem/carrossel3.jpg" class="d-block" alt="..."></a>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+            
+        <div class="planos">
+            <button id="masculino"><a href="#">Masculino</a></button>
+            <button id="feminino"><a href="#">Feminíno</a></button>
+        </div>
+
+        <section class="cards-bory">
+            <div class="card" style="width: 13rem; height: 10rem;">
+                <img src="./imagem/model1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Casual</h5>
+                  <p class="card-text">Some quick example text </p>
+                  <h3 class="card-valor">R$ 49,90</h3>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 13rem; height: 10rem;">
+                <img src="./imagem/model2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Casual</h5>
+                  <p class="card-text">Some quick example text</p>
+                  <h3 class="card-valor">R$ 49,90</h3>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 13rem; height: 10rem;">
+                <img src="./imagem/model3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Casual</h5>
+                  <p class="card-text">Some quick example text </p>
+                  <h3 class="card-valor">R$ 49,90</h3>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 13rem; height: 10rem;">
+                <img src="./imagem/model4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Vestido Casual</h5>
+                  <p class="card-text">Some quick example text </p>
+                  <h3 class="card-valor">R$ 49,90</h3>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
